@@ -11,7 +11,8 @@ Normal WASD for left-right up-down. J for Jab. I for Strong Punch. Z to command 
 Classic beat'em up, Japanese Mythological setting with defending mechanics
 ## Technicals
 The core loop. Start level -> Move towards right -> Kill monster(s) -> Kill boss -> Go to next level.
-## Mechanics: Picking up health, sake. Special moves. Defending Npc. Combo multipliers for more points
+## Mechanics: 
+Picking up health, sake. Special moves. Defending Npc. Combo multipliers for more points
 Monsters will move towards npc or player depending on type or if closer. A boss fight will appear at the end of the level
 
 
