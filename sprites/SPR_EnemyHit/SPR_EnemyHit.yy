@@ -24,18 +24,18 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd0311f1-98d1-4782-b8dd-8b1a802c312c","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd0311f1-98d1-4782-b8dd-8b1a802c312c","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":{"name":"26ef55b9-4cfa-4709-abf5-5778cb529b6e","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"SPR_EnemyHit","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"cd0311f1-98d1-4782-b8dd-8b1a802c312c","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"05853d5a-8a14-425c-89e5-4674ebfbafcc","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"05853d5a-8a14-425c-89e5-4674ebfbafcc","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":{"name":"26ef55b9-4cfa-4709-abf5-5778cb529b6e","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"SPR_EnemyHit","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"05853d5a-8a14-425c-89e5-4674ebfbafcc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b2c969e7-0535-49fc-b900-4ff334dc201a","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b2c969e7-0535-49fc-b900-4ff334dc201a","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":{"name":"ee79eb55-f98a-400b-b4a7-fe40b17190b6","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SPR_EnemyHit","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"b2c969e7-0535-49fc-b900-4ff334dc201a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4707fcb3-8568-4dcd-9569-d8a8d0f38071","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4707fcb3-8568-4dcd-9569-d8a8d0f38071","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"LayerId":{"name":"ee79eb55-f98a-400b-b4a7-fe40b17190b6","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SPR_EnemyHit","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","name":"4707fcb3-8568-4dcd-9569-d8a8d0f38071","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"SPR_EnemyHit","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"91a559cb-5d8a-4d60-aa06-d284439ba81e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd0311f1-98d1-4782-b8dd-8b1a802c312c","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b5b6977a-4b5d-4a96-900d-aa40c8c515da","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"05853d5a-8a14-425c-89e5-4674ebfbafcc","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a8e8db73-bd65-483f-bd92-8afb2edb6ea7","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b2c969e7-0535-49fc-b900-4ff334dc201a","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"83623ef7-5ff6-4406-a996-a69d5499e28b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4707fcb3-8568-4dcd-9569-d8a8d0f38071","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,7 +58,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 75,
+    "xorigin": 73,
     "yorigin": 120,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"26ef55b9-4cfa-4709-abf5-5778cb529b6e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee79eb55-f98a-400b-b4a7-fe40b17190b6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

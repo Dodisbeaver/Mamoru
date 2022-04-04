@@ -14,7 +14,9 @@ if(CurrentHP > 0){
 	XSpeed = ((moveRight - moveLeft) * Speed* SpeedMod);
 	YSpeed = ((moveDown - moveUp) * Speed*SpeedMod);
 	
-  
+if(IsHit){
+sprite_index = SPR_PlayerHit;
+}
 
 if(IsAttacking == false && IsHit = false){
 	if(MyBR.IsActive == true){

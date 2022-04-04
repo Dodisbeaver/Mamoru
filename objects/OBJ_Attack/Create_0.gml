@@ -4,7 +4,7 @@
 depth = -1*y;
  
 Damage = 20*random(1);
-StunLength = 4;
+StunLength = 15;
 Owner = "";
 DMGFrame = 3;
 

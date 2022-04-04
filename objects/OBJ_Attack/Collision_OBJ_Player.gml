@@ -4,7 +4,7 @@ if(image_index == DMGFrame && abs(depth - other.depth) <= LAYER_SIZE && abs(y - 
      
     other.CurrentHP -= Damage;
     other.IsHit = true;
-    other.alarm[3] = StunLength;
+    other.alarm[3] = StunLength ;
      
 	audio_play_sound(HitSound,10,false);
  
