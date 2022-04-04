@@ -6,6 +6,7 @@ PlayerPosY = OBJ_Player.y;
 if (keyboard_check_pressed(ord("Z")) && Follow == true)
 {
 	Follow = false;
+	speed = 0;
 }
 
 else if(keyboard_check_pressed(ord("Z")) && Follow == false)
@@ -14,7 +15,10 @@ else if(keyboard_check_pressed(ord("Z")) && Follow == false)
 	}
 
 if(Follow = true){
-	move_towards_point(PlayerPosX-10,PlayerPosY,Speed);	
-}else{
-	speed = 0;
+	if(point_distance(x,y,PlayerPosX-30,PlayerPosY)) > 2{
+		move_towards_point(PlayerPosX-30,PlayerPosY,Speed);	
+	}
+	else{
+		speed = 0;
+	}
 }
