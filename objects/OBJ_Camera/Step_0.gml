@@ -3,14 +3,14 @@
 MyBR = instance_nearest(x,y,OBJ_Fight_Area);
  
 switch State{
- 
+		
 		case "Player":
  
    		TargetX = OBJ_Player.x;
 		TargetY = OBJ_Player.y;
  
 		if(MyBR.IsActive == true){
-		    State = "Region";
+		  State = "Region";
 		}
 		break;
 		    case "Region":

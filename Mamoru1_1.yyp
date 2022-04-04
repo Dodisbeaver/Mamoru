@@ -15,6 +15,7 @@
     {"id":{"name":"SPR_PlayerHit","path":"sprites/SPR_PlayerHit/SPR_PlayerHit.yy",},"order":19,},
     {"id":{"name":"SPR_DeshiHit","path":"sprites/SPR_DeshiHit/SPR_DeshiHit.yy",},"order":30,},
     {"id":{"name":"OBJ_Platform","path":"objects/OBJ_Platform/OBJ_Platform.yy",},"order":9,},
+    {"id":{"name":"SPR_DeshiWalking","path":"sprites/SPR_DeshiWalking/SPR_DeshiWalking.yy",},"order":40,},
     {"id":{"name":"SPR_EnemyPunch","path":"sprites/SPR_EnemyPunch/SPR_EnemyPunch.yy",},"order":20,},
     {"id":{"name":"OBJ_Attack_StrongPunch","path":"objects/OBJ_Attack_StrongPunch/OBJ_Attack_StrongPunch.yy",},"order":5,},
     {"id":{"name":"OBJ_Deshi","path":"objects/OBJ_Deshi/OBJ_Deshi.yy",},"order":8,},
