@@ -42,7 +42,9 @@ switch (State){
         break;
 	case "IsHit":
 		speed = 0
+		IsHit = true;
 		cooldown = 30;
+		event_user(4);
 		event_user(3);
 		break;
 }

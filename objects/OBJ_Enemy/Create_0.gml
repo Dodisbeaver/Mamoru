@@ -3,7 +3,7 @@
 Speed = 4;
 SpeedMod = 1;
 cooldown = 0;
-//IsHit = false;
+IsHit = false;
  
 MaxHP = 80;
 CurrentHP = MaxHP;
