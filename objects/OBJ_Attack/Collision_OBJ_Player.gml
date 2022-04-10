@@ -9,4 +9,5 @@ if(image_index == DMGFrame && abs(depth - other.depth) <= LAYER_SIZE && abs(y - 
 	audio_play_sound(HitSound,10,false);
  
 	Hit = true;
+	other.SpeedMod = 1;
 }

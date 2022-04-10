@@ -8,7 +8,7 @@ return;
  if(keyboard_check(vk_numpad4) || keyboard_check(ord("J")) || keyboard_check(vk_left)){
    if(Cooldown <= 6){
    AttackType = "Basic Punch";
-	Cooldown = 10- SpeedMod;
+	Cooldown = 20- SpeedMod;
 	SpeedMod++
 	}
 }
