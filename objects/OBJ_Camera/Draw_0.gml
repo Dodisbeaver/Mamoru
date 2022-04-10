@@ -13,3 +13,5 @@ if(OBJ_Player.CurrentHP > 0){
     draw_rectangle_colour(x-450,y-260,x-450+262*(OBJ_Player.CurrentHP/OBJ_Player.MaxHP),y-260+40,c_green,c_lime,c_lime,c_green,false);
  
 }
+
+draw_self();

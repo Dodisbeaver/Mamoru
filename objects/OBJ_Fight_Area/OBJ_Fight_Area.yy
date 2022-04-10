@@ -4,7 +4,7 @@
     "path": "sprites/SPR_Fight_Area/SPR_Fight_Area.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

@@ -11,12 +11,12 @@ if(instance_exists(OBJ_Enemy) && point_in_rectangle(OBJ_Enemy.x, OBJ_Enemy.y,Lef
 		//Spawn_enemy = false;
 	} 
 	
+}else{
+	show_debug_message("nospa");
+    HasEnemies = false;
+    IsActive = false;
+	Spawn_enemy = false;
+	if(Destroy)
+	instance_destroy();
+	//Spawn_Count = 5;
 }
-//else if(!HasEnemies){
-//	show_debug_message("nospa");
-//    HasEnemies = false;
-//    IsActive = false;
-//	Spawn_enemy = false;
-	
-//	//Spawn_Count = 5;
-//}

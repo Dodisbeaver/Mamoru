@@ -14,3 +14,4 @@ HasEnemies = false;
 
 Spawn_enemy = false;
 Spawn_Count = 5;
+Destroy = false;
