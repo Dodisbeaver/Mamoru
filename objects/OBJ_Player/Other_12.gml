@@ -2,15 +2,17 @@
 // You can write your code in this editor
 var MyAttack = 0;
  
-if(IsHit == false && CurrentHP > 0){
+if(IsHit == false && CurrentHP > 0 && !IsAttacking){
     if(AttackType == "Basic Punch"){
         sprite_index = SPR_PlayerBasicPunch;
         MyAttack = instance_create_layer(x,y, "Instances", OBJ_Attack_BasicPunch);
     }else if(AttackType == "Strong Punch"){
     sprite_index = SPR_PlayerStrongPunch;
     MyAttack = instance_create_layer(x,y,"Instances",OBJ_Attack_StrongPunch);
-	
-}
+	}else if(AttackType == "UpperCut") {
+		sprite_index = SPR_PlayerUpperCut;
+		MyAttack = instance_create_layer(x,y,"Instances",OBJ_Attack_UpperCut);
+	}
 }
  
 if(MyAttack != 0){

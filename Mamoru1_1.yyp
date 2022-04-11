@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"SPR_PlatformDeactivating","path":"sprites/SPR_PlatformDeactivating/SPR_PlatformDeactivating.yy",},"order":39,},
+    {"id":{"name":"SPR_PlayerUpperCut","path":"sprites/SPR_PlayerUpperCut/SPR_PlayerUpperCut.yy",},"order":42,},
     {"id":{"name":"SPR_TestTiles","path":"sprites/SPR_TestTiles/SPR_TestTiles.yy",},"order":27,},
     {"id":{"name":"SPR_BasicPunch_Hitbox","path":"sprites/SPR_BasicPunch_Hitbox/SPR_BasicPunch_Hitbox.yy",},"order":9,},
     {"id":{"name":"SPR_EnemyIdle","path":"sprites/SPR_EnemyIdle/SPR_EnemyIdle.yy",},"order":16,},
@@ -8,6 +9,7 @@
     {"id":{"name":"OBJ_Attack","path":"objects/OBJ_Attack/OBJ_Attack.yy",},"order":3,},
     {"id":{"name":"SPR_EnemyHit","path":"sprites/SPR_EnemyHit/SPR_EnemyHit.yy",},"order":17,},
     {"id":{"name":"OBJ_Player","path":"objects/OBJ_Player/OBJ_Player.yy",},"order":0,},
+    {"id":{"name":"SPR_PlayerUpperCut29","path":"sprites/SPR_PlayerUpperCut29/SPR_PlayerUpperCut29.yy",},"order":43,},
     {"id":{"name":"SPR_PlayerWalking","path":"sprites/SPR_PlayerWalking/SPR_PlayerWalking.yy",},"order":15,},
     {"id":{"name":"SPR_Flare","path":"sprites/SPR_Flare/SPR_Flare.yy",},"order":41,},
     {"id":{"name":"SND_StrongPunch1","path":"sounds/SND_StrongPunch1/SND_StrongPunch1.yy",},"order":2,},
@@ -16,6 +18,7 @@
     {"id":{"name":"SPR_PlayerHit","path":"sprites/SPR_PlayerHit/SPR_PlayerHit.yy",},"order":19,},
     {"id":{"name":"SPR_DeshiHit","path":"sprites/SPR_DeshiHit/SPR_DeshiHit.yy",},"order":30,},
     {"id":{"name":"OBJ_Platform","path":"objects/OBJ_Platform/OBJ_Platform.yy",},"order":9,},
+    {"id":{"name":"SPR_UpperCut","path":"sprites/SPR_UpperCut/SPR_UpperCut.yy",},"order":44,},
     {"id":{"name":"SPR_DeshiWalking","path":"sprites/SPR_DeshiWalking/SPR_DeshiWalking.yy",},"order":40,},
     {"id":{"name":"SPR_EnemyPunch","path":"sprites/SPR_EnemyPunch/SPR_EnemyPunch.yy",},"order":20,},
     {"id":{"name":"OBJ_Attack_StrongPunch","path":"objects/OBJ_Attack_StrongPunch/OBJ_Attack_StrongPunch.yy",},"order":5,},
@@ -26,6 +29,7 @@
     {"id":{"name":"SPR_PlayerDead","path":"sprites/SPR_PlayerDead/SPR_PlayerDead.yy",},"order":21,},
     {"id":{"name":"SPR_Deshi","path":"sprites/SPR_Deshi/SPR_Deshi.yy",},"order":29,},
     {"id":{"name":"SPR_PlatformActive","path":"sprites/SPR_PlatformActive/SPR_PlatformActive.yy",},"order":38,},
+    {"id":{"name":"OBJ_Attack_UpperCut","path":"objects/OBJ_Attack_UpperCut/OBJ_Attack_UpperCut.yy",},"order":11,},
     {"id":{"name":"OBJ_Game","path":"objects/OBJ_Game/OBJ_Game.yy",},"order":2,},
     {"id":{"name":"OBJ_Attack_BasicPunch","path":"objects/OBJ_Attack_BasicPunch/OBJ_Attack_BasicPunch.yy",},"order":4,},
     {"id":{"name":"TILE_Tileset","path":"tilesets/TILE_Tileset/TILE_Tileset.yy",},"order":0,},

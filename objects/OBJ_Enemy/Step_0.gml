@@ -18,13 +18,13 @@ depth = -1*GroundY;
 switch (State){
  
     case "Idle":
-		show_debug_message("case idl");
+		//show_debug_message("case idl");
         event_user(0);
 		event_user(1);
         break;
  
     case "PositionFront":
-	show_debug_message("case posfrol");
+	//show_debug_message("case posfrol");
         SideMod = 1;
         event_user(4);
         event_user(5);
@@ -33,7 +33,7 @@ switch (State){
         break;
  
     case "PositionBehind":
-	show_debug_message("case posbehl");
+	//show_debug_message("case posbehl");
         SideMod = -1;
         event_user(4);
         event_user(5);

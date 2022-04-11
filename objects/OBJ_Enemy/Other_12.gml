@@ -4,7 +4,7 @@
 ///Attack Event
 
 if(OBJ_Player.CurrentHP > 0){
-	show_debug_message("usr_ev2");
+	//show_debug_message("usr_ev2");
     AttackChance = random(100); 
  
     if((Aggressiveness>.75 && AttackChance>= 90) || (Aggressiveness>1 && AttackChance>= 75)){

@@ -3,7 +3,7 @@
 ///Check Attack Chances
  
 if(OnGround == true){
-	show_debug_message("usr_ev1");
+	//show_debug_message("usr_ev1");
     if(distance_to_object(OBJ_Player) <= AttackRange && abs(y-OBJ_Player.y) < LAYER_SIZE){
  
         Aggressiveness += .02;
