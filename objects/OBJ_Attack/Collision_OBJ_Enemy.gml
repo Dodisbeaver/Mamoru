@@ -7,6 +7,6 @@ if(image_index == DMGFrame && abs(depth - other.depth) <= LAYER_SIZE && abs(y - 
     other.State = "IsHit";
     other.alarm[0] = StunLength;
     audio_play_sound(HitSound,10,false);
- 
+	other.target = OBJ_Player;
 	Hit = true;
 }

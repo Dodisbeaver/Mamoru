@@ -19,7 +19,7 @@ switch(State){
     if(point_distance(x,y,TargetX,TargetY) > 50){
         image_xscale = sign(TargetX-x);
     }else{
-        image_xscale = sign(OBJ_Player.x-TargetX);
+        image_xscale = sign(target.x-TargetX);
     }
      
     if(speed != 0){

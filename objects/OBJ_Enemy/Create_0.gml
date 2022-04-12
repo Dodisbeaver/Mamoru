@@ -4,7 +4,7 @@ Speed = 4;
 SpeedMod = 1;
 cooldown = 0;
 IsHit = false;
- 
+target = OBJ_Deshi;
 MaxHP = 80;
 CurrentHP = MaxHP;
  

@@ -3,7 +3,7 @@
 
 ///Attack Event
 
-if(OBJ_Player.CurrentHP > 0){
+if(target.CurrentHP > 0){
 	//show_debug_message("usr_ev2");
     AttackChance = random(100); 
  
