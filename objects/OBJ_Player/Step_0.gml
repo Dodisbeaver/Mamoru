@@ -21,13 +21,15 @@ sprite_index = SPR_PlayerHit;
 	
 if(IsAttacking == false && IsHit = false){
 if(MyBR.IsActive == true){
-		if(point_in_rectangle(x+XSpeed*SpeedMod, y, MyBR.LeftEdge+35, MyBR.TopEdge, MyBR.RightEdge-35, MyBR.BottomEdge-30)==false ||  place_free(x+XSpeed*SpeedMod, y)==false){
+		if(point_in_rectangle(x+XSpeed*SpeedMod, y, MyBR.LeftEdge, MyBR.TopEdge-50, MyBR.RightEdge, MyBR.BottomEdge)==false ||  place_free(x+XSpeed*SpeedMod, y)==false){
         XSpeed = 0;
 			}  
      
-		if(point_in_rectangle(x, y+YSpeed*SpeedMod, MyBR.LeftEdge+35, MyBR.TopEdge, MyBR.RightEdge-35, MyBR.BottomEdge-30)==false || place_free(x, y+YSpeed*SpeedMod)==false){
+		if(point_in_rectangle(x, y+YSpeed*SpeedMod, MyBR.LeftEdge, MyBR.TopEdge-50, MyBR.RightEdge, MyBR.BottomEdge)==false || place_free(x, y+YSpeed*SpeedMod)==false){
         YSpeed = 0;
 			}
+			
+		
 	}
 
 		Cooldown -= 1;

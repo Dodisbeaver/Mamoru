@@ -14,14 +14,14 @@ switch State{
 		}
 		break;
 		    case "Region":
-		    var MinX = OBJ_Fight_Area.LeftEdge+512;
-		var MaxX = OBJ_Fight_Area.RightEdge-512;
+		    var MinX = OBJ_Fight_Area.LeftEdge;
+			var MaxX = OBJ_Fight_Area.RightEdge;
  
-		var MinY = OBJ_Fight_Area.TopEdge+384;
-		var MaxY = OBJ_Fight_Area.BottomEdge-384;   
+			var MinY = OBJ_Fight_Area.TopEdge;
+			var MaxY = OBJ_Fight_Area.BottomEdge;   
  
-		TargetX = clamp(OBJ_Player.x,MinX,MaxX);
-		TargetY = clamp(OBJ_Player.y,MinY,MaxY);
+			TargetX = clamp(OBJ_Player.x,MinX,MaxX);
+			TargetY = clamp(OBJ_Player.y,MinY,MaxY);
  
 		if(MyBR.IsActive == false || distance_to_object(OBJ_Fight_Area) > 0){
 		     State = "Player";
