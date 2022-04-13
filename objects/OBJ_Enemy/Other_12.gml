@@ -10,7 +10,7 @@ if(target.CurrentHP > 0){
     if((Aggressiveness>.75 && AttackChance>= 90) || (Aggressiveness>1 && AttackChance>= 75)){
  
         sprite_index = SPR_EnemyPunch;
-		alarm[2] = 30;
+		alarm[2] = 10;
         //MyAttack = instance_create_layer(x,y,"Instances", OBJ_Attack_StrongPunch);
  
     }else{
