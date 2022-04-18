@@ -12,7 +12,7 @@ OnGround = true;
 GroundY = y;
 IsAttacking = false;
 image_speed = .75;
-
+alarm[3] = room_speed * 10;
 SideMod = 1;
 State = "Idle";
 SightRange = 350;

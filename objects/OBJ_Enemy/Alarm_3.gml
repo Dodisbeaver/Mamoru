@@ -1,9 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-Speed = 3;
-Follow = true;
+target = OBJ_Deshi;
 
-MaxHP = 100;
-CurrentHP = MaxHP;
-
-
+alarm[3] = room_speed * irandom(6);

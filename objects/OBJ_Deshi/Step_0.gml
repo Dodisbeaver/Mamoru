@@ -2,6 +2,7 @@
 // You can write your code in this editor
 PlayerPosX = OBJ_Player.x;
 PlayerPosY = OBJ_Player.y;
+depth = -1*y;
 
 if (keyboard_check_pressed(ord("Z")) && Follow == true)
 {
