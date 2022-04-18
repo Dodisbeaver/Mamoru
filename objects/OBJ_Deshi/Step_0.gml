@@ -1,24 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
-PlayerPosX = OBJ_Player.x;
-PlayerPosY = OBJ_Player.y;
-
-if (keyboard_check_pressed(ord("Z")) && Follow == true)
-{
-	Follow = false;
-	speed = 0;
+if(mouse_check_button_pressed(mb_right)){
+	MouseFormerX = mouse_x;
+	MouseFormerY = mouse_y;
+	move_towards_point(MouseFormerX,MouseFormerY,Speed);	
+	
+	
 }
-
-else if(keyboard_check_pressed(ord("Z")) && Follow == false)
-	{
-		Follow = true;
+if(point_distance(x,y,MouseFormerX,MouseFormerY)) < 2{
+		speed = 0;	
 	}
-
-if(Follow = true){
-	if(point_distance(x,y,PlayerPosX-30,PlayerPosY)) > 2{
-		move_towards_point(PlayerPosX-30,PlayerPosY,Speed);	
-	}
-	else{
-		speed = 0;
-	}
+	
+if(CurrentHP <= 0){
+instance_destroy();
 }
