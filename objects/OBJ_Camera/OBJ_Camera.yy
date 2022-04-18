@@ -4,7 +4,7 @@
     "path": "sprites/SPR_Camera/SPR_Camera.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

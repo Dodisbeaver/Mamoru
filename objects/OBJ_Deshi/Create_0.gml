@@ -7,3 +7,5 @@ MouseFormerY = mouse_y;
 
 MaxHP = 100;
 CurrentHP = MaxHP;
+
+

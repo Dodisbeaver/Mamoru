@@ -2,12 +2,12 @@
 // You can write your code in this editor
 ///FindTarget
  
- if(IsHit == true){
+ 
 	if(point_distance(TargetX,TargetY,target.x,target.y) > AttackRange || point_distance(TargetX,TargetY,target.x,target.y) < 50 || abs(TargetY-target.y) > LAYER_SIZE || sign(TargetX-target.x) != sign(SideMod)){
 		TargetX = random_range(target.x+60*SideMod, target.x+90*SideMod);
 		TargetY = random_range(target.y-10, target.y+10);
 	}
- }
+ 
  //else{
 	//if(point_distance(TargetX,TargetY,OBJ_Deshi.x,OBJ_Deshi.y) > AttackRange || point_distance(TargetX,TargetY,OBJ_Deshi.x,OBJ_Deshi.y) < 50 || abs(TargetY-OBJ_Deshi.y) > LAYER_SIZE || sign(TargetX-OBJ_Deshi.x) != sign(SideMod)){
 	//	TargetX = random_range(OBJ_Deshi.x+60*SideMod, OBJ_Deshi.x+90*SideMod);

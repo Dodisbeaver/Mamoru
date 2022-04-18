@@ -39,7 +39,7 @@ if(ButtonCombo == "bAtk"){
     AttackType = "UpperCut";
  
 }
-show_debug_message(ButtonCombo);
+
 if(OnGround == true ){
     event_user(2);
 	
