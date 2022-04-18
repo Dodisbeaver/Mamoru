@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"SPR_PlatformDeactivating","path":"sprites/SPR_PlatformDeactivating/SPR_PlatformDeactivating.yy",},"order":39,},
+    {"id":{"name":"OBJ_JellyFilledDoughnut","path":"objects/OBJ_JellyFilledDoughnut/OBJ_JellyFilledDoughnut.yy",},"order":15,},
     {"id":{"name":"SPR_PlayerUpperCut","path":"sprites/SPR_PlayerUpperCut/SPR_PlayerUpperCut.yy",},"order":42,},
     {"id":{"name":"SPR_TestTiles","path":"sprites/SPR_TestTiles/SPR_TestTiles.yy",},"order":27,},
     {"id":{"name":"SPR_BasicPunch_Hitbox","path":"sprites/SPR_BasicPunch_Hitbox/SPR_BasicPunch_Hitbox.yy",},"order":9,},
@@ -30,6 +31,7 @@
     {"id":{"name":"SPR_PlayerBasicPunch","path":"sprites/SPR_PlayerBasicPunch/SPR_PlayerBasicPunch.yy",},"order":13,},
     {"id":{"name":"SPR_Wall","path":"sprites/SPR_Wall/SPR_Wall.yy",},"order":46,},
     {"id":{"name":"OBJ_Flare","path":"objects/OBJ_Flare/OBJ_Flare.yy",},"order":10,},
+    {"id":{"name":"SPR_JellyFilledDoughnut","path":"sprites/SPR_JellyFilledDoughnut/SPR_JellyFilledDoughnut.yy",},"order":48,},
     {"id":{"name":"SPR_PlayerDead","path":"sprites/SPR_PlayerDead/SPR_PlayerDead.yy",},"order":21,},
     {"id":{"name":"SPR_Deshi","path":"sprites/SPR_Deshi/SPR_Deshi.yy",},"order":29,},
     {"id":{"name":"SPR_PlatformActive","path":"sprites/SPR_PlatformActive/SPR_PlatformActive.yy",},"order":38,},
