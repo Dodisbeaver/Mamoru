@@ -482,6 +482,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"OBJ_WallBorder","path":"objects/OBJ_WallBorder/OBJ_WallBorder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3008.0,"y":128.0,"resourceVersion":"1.0","name":"inst_724D9D98","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"OBJ_WallBorder","path":"objects/OBJ_WallBorder/OBJ_WallBorder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3008.0,"y":64.0,"resourceVersion":"1.0","name":"inst_257570A8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"OBJ_WallBorder","path":"objects/OBJ_WallBorder/OBJ_WallBorder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3008.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1E354753","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"OBJ_JellyFilledDoughnut","path":"objects/OBJ_JellyFilledDoughnut/OBJ_JellyFilledDoughnut.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":320.0,"resourceVersion":"1.0","name":"inst_3D085463","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"OBJ_Platform","path":"objects/OBJ_Platform/OBJ_Platform.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":352.0,"resourceVersion":"1.0","name":"inst_7E69B56E","tags":[],"resourceType":"GMRInstance",},
@@ -972,6 +973,7 @@
     {"name":"inst_724D9D98","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_257570A8","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_1E354753","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_3D085463","path":"rooms/Room2/Room2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
