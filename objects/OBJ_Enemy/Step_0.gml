@@ -4,6 +4,9 @@
 
 cooldown -= 1;
 AttackType = "Strong Punch";
+if(!instance_exists(OBJ_Deshi)) {
+	target = OBJ_Player;
+}
 if(CurrentHP < 0){
 
 instance_destroy();

@@ -5,3 +5,6 @@ MyAttack = instance_create_layer(x,y,"Instances", OBJ_Attack_Enemy);
     MyAttack.image_xscale = image_xscale;
     MyAttack.image_speed = image_speed;
     MyAttack.Owner = "Enemy";
+	if(global.gameover)
+		MyAttack.Damage = 1000;
+	

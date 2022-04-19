@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.gameover = false;
+Speed = 0;
+
+move_towards_point(OBJ_Player.)
