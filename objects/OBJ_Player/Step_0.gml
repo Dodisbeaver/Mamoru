@@ -12,8 +12,15 @@ moveLeft = keyboard_check(ord("A"));
 
 moveDown = keyboard_check(ord("S"));
 
-if(dead)
-return;
+if(dead){
+	if(dead && CurrentHP < 0){
+	alarm[6] = room_speed * DeadCounter;
+	CurrentHP = 100 - 2 * DeadCounter;
+	}
+	
+	exit;
+}
+
 
 
 

@@ -1,7 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(onPlatform)
+CurrentHP = platformHp;
 
-//if(mouse_check_button_pressed(mb_right)){
+if(mouse_check_button_pressed(mb_right)){
+	mouseclicked = true;
 //var MyBR = instance_nearest(x,y, OBJ_Fight_Area);
 //Speed = 3
 //	if(MyBR.IsActive){
@@ -51,14 +54,18 @@
 
 	
 	
+alarm[0] = room_speed * 6;
 
 
-
-//}
+}
 if(point_distance(x,y,MouseFormerX,MouseFormerY)) < 2{
 		speed = 0;	
 	}
-	
+
+if(point_distance(x,y,OBJ_Player.x, OBJ_Player.y) > 200 && !mouseclicked){
+	move_towards_point(OBJ_Player.x,OBJ_Player.y,3);
+} 
+
 if(CurrentHP <= 0){
 instance_destroy();
 }
