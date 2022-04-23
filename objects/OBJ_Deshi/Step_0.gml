@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(onPlatform)
+if(onPlatform )
 CurrentHP = platformHp;
 
 if(mouse_check_button_pressed(mb_right)){
@@ -54,7 +54,7 @@ if(mouse_check_button_pressed(mb_right)){
 
 	
 	
-alarm[0] = room_speed * 6;
+alarm[0] = room_speed * 8;
 
 
 }
@@ -62,9 +62,13 @@ if(point_distance(x,y,MouseFormerX,MouseFormerY)) < 2{
 		speed = 0;	
 	}
 
-if(point_distance(x,y,OBJ_Player.x, OBJ_Player.y) > 200 && !mouseclicked){
+if(point_distance(x,y,OBJ_Player.x, OBJ_Player.y) > 200 && !mouseclicked && !onPlatform){
 	move_towards_point(OBJ_Player.x,OBJ_Player.y,3);
-} 
+} else {
+	if (!mouseclicked)
+	speed = 0;
+}
+
 
 if(CurrentHP <= 0){
 instance_destroy();

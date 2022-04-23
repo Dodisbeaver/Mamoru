@@ -3,3 +3,4 @@
 active = false;
 isactivating = false;
 isdeactivating = false;
+timeOut = false;
