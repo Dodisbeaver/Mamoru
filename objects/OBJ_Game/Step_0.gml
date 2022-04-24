@@ -5,4 +5,5 @@ if(keyboard_check(ord("P"))){
 	
 if(!instance_exists(OBJ_Deshi) && global.gamestart) {
 	gameover = true;
+	game_restart();
 }

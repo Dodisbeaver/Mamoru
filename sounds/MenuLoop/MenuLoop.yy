@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.31,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "HuggtandreDjManjigoo.mp3",
-  "duration": 264.071838,
+  "soundFile": "MenuLoop.ogg",
+  "duration": 36.7722664,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "HuggtandreDjManjigoo",
+  "name": "MenuLoop",
   "tags": [],
   "resourceType": "GMSound",
 }

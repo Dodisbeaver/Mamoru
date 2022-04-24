@@ -49,6 +49,7 @@
     {"id":{"name":"OBJ_Attack_Enemy","path":"objects/OBJ_Attack_Enemy/OBJ_Attack_Enemy.yy",},"order":12,},
     {"id":{"name":"SPR_Platform","path":"sprites/SPR_Platform/SPR_Platform.yy",},"order":36,},
     {"id":{"name":"OBJ_Fight_Area","path":"objects/OBJ_Fight_Area/OBJ_Fight_Area.yy",},"order":7,},
+    {"id":{"name":"MenuLoop","path":"sounds/MenuLoop/MenuLoop.yy",},"order":4,},
     {"id":{"name":"OBJ_StartPlayer","path":"objects/OBJ_StartPlayer/OBJ_StartPlayer.yy",},"order":17,},
     {"id":{"name":"SPR_Fight_Area","path":"sprites/SPR_Fight_Area/SPR_Fight_Area.yy",},"order":26,},
     {"id":{"name":"SPR_Background","path":"sprites/SPR_Background/SPR_Background.yy",},"order":33,},
@@ -81,6 +82,7 @@
     "name": "Default",
     "children": [
       {"name":"Testing","children":[],},
+      {"name":"New","children":[],},
     ],
   },
   "RoomOrderNodes": [

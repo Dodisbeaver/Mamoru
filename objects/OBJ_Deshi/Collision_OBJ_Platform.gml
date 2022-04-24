@@ -6,8 +6,9 @@ if(!other.active && !other.timeOut) {
 	if(!other.active)
 	other.isactivating = true;
 	onPlatform = true;
-	platformHp = CurrentHP;
-}else {
+	
+}else if(other.active){
+	onPlatform = true;
+	
 
-onPlatform = false;
-}
+} else onPlatform = false;

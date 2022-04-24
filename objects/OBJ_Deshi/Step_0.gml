@@ -54,7 +54,7 @@ if(mouse_check_button_pressed(mb_right)){
 
 	
 	
-alarm[0] = room_speed * 8;
+alarm[0] = room_speed * 7;
 
 
 }
@@ -64,8 +64,8 @@ if(point_distance(x,y,MouseFormerX,MouseFormerY)) < 2{
 
 if(point_distance(x,y,OBJ_Player.x, OBJ_Player.y) > 200 && !mouseclicked && !onPlatform){
 	move_towards_point(OBJ_Player.x,OBJ_Player.y,3);
-} else {
-	if (!mouseclicked)
+} else if(point_distance(x,y,OBJ_Player.x, OBJ_Player.y) < 15){
+	//if (!mouseclicked)
 	speed = 0;
 }
 
