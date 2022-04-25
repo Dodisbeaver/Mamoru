@@ -15,9 +15,9 @@ draw_set_alpha(1);
  
  
 if(CurrentHP > 0){
-	
-	draw_set_color(c_maroon);
-	draw_rectangle(x-(sprite_width/2),y+5,x+(sprite_width/2)*(CurrentHP/MaxHP),y+10,false);
+	var enemy;
+	enemy = (CurrentHP/ MaxHP) * 100;
+	draw_healthbar(x-(sprite_width/2),y+5,x+(sprite_width/2),y+10,enemy,c_black,c_red,c_red,1,true,true);
    
  
 }

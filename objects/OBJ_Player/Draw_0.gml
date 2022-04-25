@@ -11,3 +11,11 @@ draw_ellipse(x-40,y-8,x+40,y+8,false);
 draw_set_alpha(1);
 draw_self();
 
+if(instance_exists(OBJ_Player)){
+	
+	var Player;
+	Player = (CurrentHP/ MaxHP) * 100;
+	draw_healthbar(x-(sprite_width/2),y+5,x+(sprite_width/2),y+10,Player,c_black,c_lime,c_lime,1,true,true);
+   
+ 
+}
