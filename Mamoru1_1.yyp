@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"OBJ_Title","path":"objects/OBJ_Title/OBJ_Title.yy",},"order":22,},
     {"id":{"name":"SPR_PlatformDeactivating","path":"sprites/SPR_PlatformDeactivating/SPR_PlatformDeactivating.yy",},"order":39,},
     {"id":{"name":"OBJ_JellyFilledDoughnut","path":"objects/OBJ_JellyFilledDoughnut/OBJ_JellyFilledDoughnut.yy",},"order":15,},
     {"id":{"name":"SPR_PlayerUpperCut","path":"sprites/SPR_PlayerUpperCut/SPR_PlayerUpperCut.yy",},"order":42,},
@@ -7,6 +8,7 @@
     {"id":{"name":"SPR_TestTiles","path":"sprites/SPR_TestTiles/SPR_TestTiles.yy",},"order":27,},
     {"id":{"name":"SPR_BasicPunch_Hitbox","path":"sprites/SPR_BasicPunch_Hitbox/SPR_BasicPunch_Hitbox.yy",},"order":9,},
     {"id":{"name":"SPR_BossHit","path":"sprites/SPR_BossHit/SPR_BossHit.yy",},"order":54,},
+    {"id":{"name":"SPR_Title","path":"sprites/SPR_Title/SPR_Title.yy",},"order":57,},
     {"id":{"name":"HuggtandreDjManjigoo","path":"sounds/HuggtandreDjManjigoo/HuggtandreDjManjigoo.yy",},"order":3,},
     {"id":{"name":"SPR_EnemyIdle","path":"sprites/SPR_EnemyIdle/SPR_EnemyIdle.yy",},"order":16,},
     {"id":{"name":"SPR_EnemyWalking","path":"sprites/SPR_EnemyWalking/SPR_EnemyWalking.yy",},"order":23,},
