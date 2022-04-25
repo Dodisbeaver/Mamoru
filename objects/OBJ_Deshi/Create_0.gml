@@ -9,3 +9,5 @@ MaxHP = 100;
 CurrentHP = MaxHP;
 onPlatform = false;
 platformHp = CurrentHP;
+followPlayer = true;
+alarm[0] = room_speed * 7;

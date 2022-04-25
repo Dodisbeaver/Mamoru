@@ -12,3 +12,6 @@ if(!other.active && !other.timeOut) {
 	
 
 } else onPlatform = false;
+
+
+
