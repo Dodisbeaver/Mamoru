@@ -67,6 +67,7 @@
     {"id":{"name":"SPR_DeshiDead","path":"sprites/SPR_DeshiDead/SPR_DeshiDead.yy",},"order":31,},
     {"id":{"name":"OBJ_Boss","path":"objects/OBJ_Boss/OBJ_Boss.yy",},"order":21,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"Player_Attack","path":"scripts/Player_Attack/Player_Attack.yy",},"order":1,},
     {"id":{"name":"SPR_BaseAttack","path":"sprites/SPR_BaseAttack/SPR_BaseAttack.yy",},"order":50,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"Font_pixel","path":"fonts/Font_pixel/Font_pixel.yy",},"order":0,},

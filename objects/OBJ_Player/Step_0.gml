@@ -1,16 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Chekc movement input
+Player_Attack();
+moveRight = keyboard_check(ord("D")) || gamepad_button_check(0, gp_padr);
 
+moveUp = keyboard_check(ord("W")) || gamepad_button_check(0, gp_padu);
 
+moveLeft = keyboard_check(ord("A"))|| gamepad_button_check(0, gp_padl);
 
-moveRight = keyboard_check(ord("D"));
+moveDown = keyboard_check(ord("S")) || gamepad_button_check(0, gp_padd);
+if(moveLeft || moveRight || moveDown || moveUp)
+{
+controller = 0;
 
-moveUp = keyboard_check(ord("W"));
+}
 
-moveLeft = keyboard_check(ord("A"));
-
-moveDown = keyboard_check(ord("S"));
 
 if(dead){
 	if(dead && CurrentHP < 0){
