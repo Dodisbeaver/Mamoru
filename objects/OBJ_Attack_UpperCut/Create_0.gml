@@ -3,8 +3,8 @@
 event_inherited();
  
 Damage = 25*random(1);
-StunLength = 20;
-Owner = "";
+StunLength = 40;
+
 DMGFrame = 3;
 
 HitSound = SND_BasicPunch1;

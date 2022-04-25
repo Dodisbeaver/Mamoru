@@ -17,7 +17,7 @@ SideMod = 1;
 State = "Idle";
 SightRange = 350;
 Aggressiveness = 0;
-AttackRange = sprite_width/2+OBJ_Player.sprite_width/2;
+AttackRange = sprite_width/2+40;
 
 TargetX = x;
 TargetY = y;

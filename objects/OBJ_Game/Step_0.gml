@@ -5,5 +5,6 @@ if(keyboard_check(ord("P"))){
 	
 if(!instance_exists(OBJ_Deshi) && global.gamestart) {
 	gameover = true;
+	global.musicTracker = -1;
 	game_restart();
 }
