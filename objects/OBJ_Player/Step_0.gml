@@ -17,7 +17,7 @@ controller = 0;
 
 
 if(dead){
-	if(dead && CurrentHP < 0){
+	if(!global.gameover && dead && CurrentHP < 0){
 	alarm[6] = room_speed * DeadCounter;
 	CurrentHP = 100 - 2 * DeadCounter;
 	}

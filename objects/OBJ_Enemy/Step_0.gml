@@ -1,14 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-
+//show_debug_message(ds_list_find_index(OBJ_Player.EnemyList,id));
+if(id = ds_list_find_index(OBJ_Player.EnemyList, id))
+show_debug_message("ehcoeoe");
 cooldown -= 1;
 AttackType = "Strong Punch";
 if(!instance_exists(OBJ_Deshi)) {
 	target = OBJ_Player;
 }
-if(CurrentHP < 0){
-
+if(CurrentHP <= 0){
+global.score += 100;
 instance_destroy();
 
 }
@@ -51,6 +52,9 @@ switch (State){
 		event_user(4);
 		event_user(3);
 		break;
+	case "Queueing":
+    event_user(3);//Animate the Enemy
+    break;
 }
 //if(IsHit==true){
 //    sprite_index = SPR_EnemyHit;

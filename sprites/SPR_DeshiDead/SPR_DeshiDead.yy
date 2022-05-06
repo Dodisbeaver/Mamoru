@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Deshi",
+    "path": "folders/Sprites/Deshi.yy",
   },
   "resourceVersion": "1.0",
   "name": "SPR_DeshiDead",

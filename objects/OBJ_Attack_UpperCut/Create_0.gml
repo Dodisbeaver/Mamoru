@@ -11,3 +11,5 @@ HitSound = SND_BasicPunch1;
 MissSound = SND_MissedPunch;
  
 Hit = false;
+hitTypeScore += 60;
+

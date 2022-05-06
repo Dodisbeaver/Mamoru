@@ -5,8 +5,10 @@ SpeedMod = 1;
 cooldown = 0;
 IsHit = false;
 target = OBJ_Deshi;
-MaxHP = 80;
-CurrentHP = MaxHP;
+target = OBJ_Player;
+CurrentHP = 80;
+MaxHP = CurrentHP;
+
  
 OnGround = true;
 GroundY = y;
@@ -17,7 +19,8 @@ SideMod = 1;
 State = "Idle";
 SightRange = 350;
 Aggressiveness = 0;
-AttackRange = sprite_width/2+40;
+//AttackRange = sprite_width/2+40;
+AttackRange = sprite_width/2+55;
 
 TargetX = x;
 TargetY = y;

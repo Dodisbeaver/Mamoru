@@ -21,8 +21,15 @@ if(IsHit == false && CurrentHP > 0 && !IsAttacking){
 	} else if(AttackType == "Kick") {
 		sprite_index = SPR_PlayerKick;
 		MyAttack = instance_create_layer(x,y,"Instances",OBJ_Attack_StrongPunch);
+		
 		MyAttack.force = 100;
 		MyAttack.Owner = "Player";
+	} else if(AttackType == "Saiyan") {
+		MyAttack = instance_create_layer(x,y, "Instances",OBJ_Attack_Saiyan);
+		sprite_index = SPR_PlayerSaiyan;
+		MyAttack.force = 100;
+		MyAttack.Owner = "Player";
+		
 	}
 }
  

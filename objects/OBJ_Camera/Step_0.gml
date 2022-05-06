@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-	MyBR = instance_nearest(x+100,y+100,OBJ_Fight_Area);
-
+	if(State = "Player" && object_exists(OBJ_Fight_Area))
+	MyBR = instance_nearest(x,y,OBJ_Fight_Area);
+	else State = "Player";
+	
 switch State{
 		
 		case "Player":
@@ -10,7 +11,7 @@ switch State{
    		TargetX = OBJ_Player.x;
 		TargetY = OBJ_Player.y;
  
-		if(MyBR.IsActive == true ){
+		if(MyBR.IsActive == true && object_exists(OBJ_Fight_Area)){
 		  State = "Region";
 		}
 		break;
@@ -27,7 +28,7 @@ switch State{
 		TargetX = clamp(OBJ_Player.x,MinX,MaxX);
 		TargetY = clamp(OBJ_Player.y,MinY,MaxY);
  
-		if(MyBR.IsActive == false || distance_to_object(OBJ_Fight_Area) > 0){
+		if(MyBR.IsActive == false || distance_to_object(OBJ_Fight_Area) > 0 && object_exists(OBJ_Fight_Area)){
 		     State = "Player";
 		}
 			break;

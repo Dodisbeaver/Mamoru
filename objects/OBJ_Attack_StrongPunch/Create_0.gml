@@ -5,4 +5,5 @@ event_inherited();
 Damage = 35*random(1);
 StunLength = 30;
 HitSound = SND_StrongPunch1;
+hitTypeScore += 70;
 

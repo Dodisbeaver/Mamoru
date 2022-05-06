@@ -26,6 +26,7 @@ for(var  i = 0; i < menu_items; i++){
 	draw_text(xx,yy,txt);
 
 }
+
 draw_set_font(Font_pixelcontrols);
 draw_set_halign(fa_left);
 draw_set_valign(fa_bottom);
@@ -63,3 +64,4 @@ for(var  i = 0; i < credits_items; i++){
 	draw_text(xx,yy,txt);
 
 }
+

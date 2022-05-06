@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Boss",
+    "path": "folders/Sprites/Boss.yy",
   },
   "resourceVersion": "1.0",
   "name": "SPR_BossAttack",

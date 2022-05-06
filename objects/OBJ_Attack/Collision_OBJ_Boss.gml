@@ -9,4 +9,5 @@ if(image_index == DMGFrame && abs(depth - other.depth) <= LAYER_SIZE && abs(y - 
     audio_play_sound(HitSound,10,false);
 	other.target = OBJ_Player;
 	Hit = true;
+	global.score += hitScore + hitTypeScore;
 }

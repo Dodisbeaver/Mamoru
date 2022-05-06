@@ -13,7 +13,7 @@ menu_itemheight = font_get_size(Font_pixel);
 menu_committed = -1;
 menu_control = true;
 
-menu[1] = "New Game";
+menu[1] = "Start";
 menu[0] = "Quit";
 
 controls[2] = "Move - WASD or Arrows";

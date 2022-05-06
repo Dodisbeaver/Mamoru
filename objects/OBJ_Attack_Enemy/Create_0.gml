@@ -3,5 +3,5 @@
 //Inherits parents events
 event_inherited();
 Damage = 15*random(1);
-StunLength = 20*random(1);
+
 HitSound = SND_StrongPunch1;

@@ -15,7 +15,12 @@ if(instance_exists(OBJ_Enemy) && point_in_rectangle(OBJ_Enemy.x, OBJ_Enemy.y,Lef
     HasEnemies = false;
     IsActive = false;
 	Spawn_enemy = false;
-	if(Destroy)
+	if(Destroy){
+		global.gotonext = true;
+		OBJ_Game.alarm[3] = room_speed * 3;
+		
+		instance_create_layer(x,y, "Instances", OBJ_Arrow );
+		
 	instance_destroy();
-	
+	}
 }

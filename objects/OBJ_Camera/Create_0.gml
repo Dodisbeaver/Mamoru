@@ -4,7 +4,7 @@
  
 view_vborder = 1024;
 view_hborder = 576;
-
+MyBR = instance_nearest(x+100,y,OBJ_Fight_Area);
  
 view_visible[0] = true;
  

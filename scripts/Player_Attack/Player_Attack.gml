@@ -39,13 +39,14 @@ if(attack_strong || gamepad_button_check_pressed(0,gp_face2)){
 if (ButtonCombo != "")
 ds_list_add(CommandList, string_delete(ButtonCombo,1,1));
 
-show_debug_message(string(ds_list_find_index(CommandList, "bAtk")))
+//show_debug_message(string(ds_list_find_index(CommandList, "bAtk")))
 
 while(ds_list_size(CommandList) > 7){
     ds_list_delete(CommandList, 0);
 }
-
-if(ds_list_find_value(CommandList,ds_list_size(CommandList)-1) == "bAtk" && ds_list_find_value(CommandList,ds_list_size(CommandList)-2) == "bAtk" && ds_list_find_value(CommandList,ds_list_size(CommandList)-3) == "bAtk") {
+if(ds_list_find_value(CommandList,ds_list_size(CommandList)-1) == "sAtk" && ds_list_find_value(CommandList,ds_list_size(CommandList)-2) == "sAtk" && ds_list_find_value(CommandList,ds_list_size(CommandList)-3) == "sAtk"){
+	AttackType = "Saiyan";
+}else if(ds_list_find_value(CommandList,ds_list_size(CommandList)-1) == "bAtk" && ds_list_find_value(CommandList,ds_list_size(CommandList)-2) == "bAtk" && ds_list_find_value(CommandList,ds_list_size(CommandList)-3) == "bAtk") {
 	AttackType = "Kick";
 } else if(ds_list_find_value(CommandList,ds_list_size(CommandList)-1) == "bAtk"){
     AttackType = "Basic Punch";
